@@ -1,0 +1,9 @@
+{
+	"private": true,
+	"name": "@esperecyan/vket-external-data",
+	"type": "module",
+	"devDependencies": {
+		"@esperecyan/eslint-config": "^2.6.0",
+		"eslint": "^8.43.0"
+	}
+}
