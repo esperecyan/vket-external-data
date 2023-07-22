@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
     build:
-        timeout-minutes: 1
+        timeout-minutes: 2
         permissions:
             contents: write
         runs-on: ubuntu-22.04
