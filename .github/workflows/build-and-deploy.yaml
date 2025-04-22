@@ -19,10 +19,6 @@ jobs:
               with:
                 submodules: 'true'
 
-            - name: メインブランチへ60日間コミットがないと、スケジュールされたワークフローが停止するのを防止
-              # https://docs.github.com/actions/managing-workflow-runs/disabling-and-enabling-a-workflow
-              uses: gautamkrishnar/keepalive-workflow@995aec69bb3f2b45b20f4e107907992c8715086d #v2.0.8
-
             - name: 更新チェック用のキャッシュデータを取得
               uses: dawidd6/action-download-artifact@20319c5641d495c8a52e688b7dc5fada6c3a9fbc #v8
               with:
